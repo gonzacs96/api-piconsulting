@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  api-piconsulting:
+    build: ./
+    container_name: api-piconsulting
+    environment:
+      DB_CONNECTION_STRING: sqlite:///piconsulting.db
+      DB_ECHO: False
+    ports:
+      - "8000:8000"
+    networks:
+      - api-piconsulting-network
+networks:
+  api-piconsulting-network:
+    driver: bridge
