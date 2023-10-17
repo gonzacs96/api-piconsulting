@@ -50,6 +50,6 @@ Para correr este proyecto, sigue los siguientes pasos:
 
 1. Inicializa el servicio de api-piconsulting a través del docker-compose.yml que se brinda en el proyecto.
 
-En cualquiera de los dos casso abre tu navegador web y navega a la dirección `http://localhost:8000/docs`. Esto te llevará a la documentación de la API generada automáticamente por FastAPI.
+En cualquiera de los dos casos abre tu navegador web y navega a la dirección `http://localhost:8000/docs`. Esto te llevará a la documentación de la API generada automáticamente por FastAPI.
 
 Puedes encontrar la documentación de FastAPI en el siguiente enlace: https://fastapi.tiangolo.com/
