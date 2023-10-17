@@ -2,7 +2,10 @@ from fastapi import FastAPI, status
 from src.config.database import test_db_connection_and_create_tables
 from src.handlers.internal_exception_handler import internal_exception_handler
 from src.routers.character_router import router as character_router
+from dotenv import load_dotenv
 
+# Load environment variables
+load_dotenv()
 # Test database connection and create tables
 test_db_connection_and_create_tables()
 
