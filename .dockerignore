@@ -26,5 +26,5 @@ coverage.xml
 .vscode
 .idea
 .dockerfile
-.docker-compose.yml
+docker-compose.yml
 .dockerignore
