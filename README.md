@@ -40,7 +40,9 @@ Para correr este proyecto, sigue los siguientes pasos:
    pip install -r requirements.txt
    ```
 
-5. Inicia el servidor de desarrollo ejecutando el siguiente comando en la terminal:
+5. Crea un archivo .env con las variables de entorno DB_CONNECTION_STRING y DB_ECHO.
+
+6. Inicia el servidor de desarrollo ejecutando el siguiente comando en la terminal:
 
    ```
    uvicorn main:app --reload
